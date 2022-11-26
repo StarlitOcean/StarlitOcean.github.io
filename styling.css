@@ -1,0 +1,27 @@
+.Title{
+    font-size: 200%;
+    margin-left: 40%;
+}
+
+.bookList{
+    font-size: 150%;
+    margin-left: 35%;
+}
+
+.normalText{
+    font-size: 150%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.Enjoy{
+    font-size: 150%;
+    margin-left: 35%;
+    margin-right: 35%;
+    color:blue;
+}
+
+.tinyNotice{
+    font-size: 70%;
+    color: darkslategray;
+}

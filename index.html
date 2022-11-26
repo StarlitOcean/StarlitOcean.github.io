@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0;" />
+    <link rel="stylesheet" type="text/css" href="styling.css" />
+    
+    <script>
+    let r = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+    
+    let reverseR = false;
+    let reverseG = false;
+    let reverseB = false;
+    
+    setInterval(changeColor,100);
+    
+function changeColor(){
+  if(reverseR === false){r += 1 ;}
+    if(r === 255){reverseR = true}
+    else if(r === 0){reverseR = false}
+    if(reverseR === true){r -= 1 ;  }
+    if(reverseG === false){g += 1 ;}
+    if(g === 255){reverseG = true}
+    else if(g === 0){reverseG = false}
+    if(reverseG === true){g -= 1 ;  }
+    if(reverseB === false){b += 1 ;}
+    if(b === 255){reverseB = true}
+    else if(b === 0){reverseB = false}
+    if(reverseB === true){b -= 1 ;}
+    document.body.style.backgroundColor = `rgb( ${r}, ${g}, ${b} )`;
+    let allTexts = document.querySelectorAll("h2")
+    allTexts.style.color = `rgb( ${255 - r}, ${255 - g}, ${255 - b} )`;}
+    </script>
+    
+</head>
+<body>
+
+<h1 class="Title">Rebecca's Library</h1>
+    
+<p class="normalText">Hello people, it's Rebecca here XD; your local pokemon addict.  Some of these stories are finished and uploaded while others are worked on.  Please wait and have patience &lt;3.</p>    
+    
+<ol class="bookList">
+    <li><p>ChuJuxZuko</p></li>
+    <li><p>KabuxVelvette</p></li>
+    <li><p>BrawlyxCatalina</p></li>
+    <li><p>FalknerxJinea</p></li>
+    <li><p>PiersxShley</p></li>
+    <li><p>VolknerxKaho</p></li>
+    <li><p>NxNana</p></li>
+    <li><p>SycamorexRouge</p></li>
+    <li><p>BrassiusxRegalia</p></li>
+    <li><p>A love star wars story: Sienna-ArgexQui-Too</p>
+    <p class="tinyNotice">Note: Contains clone of famous jedi and imaginary planet.</p></li>
+    
+</ol>
+    
+<p class="Enjoy">Enjoy!</p>
+
+    <!-- Rebecca and Pascal worked on that website :b -->
+    
+</body>
+</html>
