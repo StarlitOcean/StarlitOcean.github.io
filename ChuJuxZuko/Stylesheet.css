@@ -21,4 +21,17 @@
 
 .text{
     font-size: 150%;
+    margin-right: 3%
+}
+
+.end{
+    font-size: 600%;
+    margin-left: 30%;
+    color: darkblue;
+}
+
+.credit{
+    font-size: 140%;
+    color: dimgrey;
+    
 }
