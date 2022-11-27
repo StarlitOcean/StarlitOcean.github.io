@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    
+}
+
+.firstColumn{
+    flex: 10%;
+    background-color:blue;
+    
+}
+
+.secondcolumn {
+    flex: 80%;
+    background-color:lightskyblue;
+}
+
+.tirthcolumn {
+    flex: 10%;
+    background-color:blue;
+}
+
+.text{
+    font-size: 150%;
+}
