@@ -1,0 +1,44 @@
+.row {
+    display: flex;
+    
+}
+
+.firstColumn{
+    flex: 10%;
+    background-color:blue;
+    
+}
+
+.secondcolumn {
+    flex: 80%;
+    background-color:lightskyblue;
+}
+
+.tirthcolumn {
+    flex: 10%;
+    background-color:blue;
+}
+
+.text{
+    font-size: 150%;
+    margin-right: 3%
+}
+
+.end{
+    font-size: 600%;
+    margin-left: 30%;
+    color: darkblue;
+}
+
+.credit{
+    font-size: 140%;
+    color: dimgrey;
+    
+}
+
+.title{
+    font-size: 500%;
+    margin-right: 3%;
+    margin-left: 3%;
+    color: darkblue;
+}
